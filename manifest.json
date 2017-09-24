@@ -1,5 +1,15 @@
 {
-    "name": "Where We're Going, We Do Need Roads",
-    "display": "standalone",
-    "orientation": "landscape"
+    "name": "roads.bhdouglass",
+    "title": "Where We're Going, We Do Need Roads",
+    "description": "Where We're Going, We Do Need Roads - game by Mark Vasilkov",
+    "architecture": "all",
+    "framework": "ubuntu-sdk-15.04.6",
+    "hooks": {
+        "roads": {
+            "apparmor": "roads.apparmor",
+            "desktop": "roads.desktop"
+        }
+    },
+    "maintainer": "Brian Douglass <bhdouglass@gmail.com>",
+    "version": "1.02"
 }

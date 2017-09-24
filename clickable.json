@@ -1,0 +1,7 @@
+{
+  "template": "pure",
+  "dir": "clickbuild",
+  "arch": "all",
+  "ignore": [".git"],
+  "kill": "webapp-container"
+}

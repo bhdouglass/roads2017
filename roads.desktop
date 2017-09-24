@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=We Do Need Roads
+Exec=webapp-container --app-id="roads.bhdouglass" $@ index.html
+Icon=icon.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+X-Ubuntu-Supported-Orientations=landscape
